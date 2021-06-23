@@ -7,13 +7,13 @@
 ## - Menampilkan seluruh data-data surah
 Digunakan untuk mendapatkan informasi tentang semua surah dari Al-Quran beserta keteranganya, Responnya berupa JSON.
 ```bash
-/surah
+https://api-alquranid.herokuapp.com/surah
 ```
 ## - Menampilkan data surah beserta ayat-ayatnya berdasarkan nomor surat
 ```bash
-/surah/nomorsurah
+https://api-alquranid.herokuapp.com/surah/nomorsurah
 ```
 Ket: nomor surah berupa number / integer
 
 ### Gunakan free API ini dengan Bijak dan Benar ya :)
-### Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
+### Jika ada kesalahan pada API bisa hubungi email: alwanrabbae@gmail.com atau lewat issues pada repo ini.<br>Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
