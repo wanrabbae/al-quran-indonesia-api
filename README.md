@@ -4,6 +4,11 @@
 
 # Penggunaan
 
+API PATH:
+```bash
+https://api-alquranid.herokuapp.com
+```
+
 ## - Menampilkan seluruh data-data surah
 Digunakan untuk mendapatkan informasi tentang semua surah dari Al-Quran beserta keteranganya, Responnya berupa JSON.
 ```bash
