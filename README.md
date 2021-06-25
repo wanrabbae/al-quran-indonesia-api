@@ -4,7 +4,7 @@
 
 # Penggunaan
 
-API PATH:
+BASE Url:
 ```bash
 https://api-alquranid.herokuapp.com
 ```
