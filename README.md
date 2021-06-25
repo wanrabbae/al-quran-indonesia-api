@@ -70,4 +70,4 @@ Note: nomor surah berupa number / integer
 ```
 
 ### Gunakan free API ini dengan Bijak dan Benar ya :)
-### Jika ada kesalahan pada API bisa hubungi email: alwanrabbae@gmail.com atau lewat issues pada repo ini.<br>Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
+### Jika ada kesalahan pada API atau ingin meminta saran bisa hubungi email: alwanrabbae@gmail.com atau lewat issues pada repo ini.<br>Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
