@@ -2,6 +2,10 @@
 ### Assalamualaikum wr.wb
 ### API gratis untuk Al-Qur'an Bahasa Indonesia yg dibuat dengan cinta dan kasih sayang. API ini GRATIS dan Halal!! Masya allah...
 
+API ini dibuat menggunakan: <br>
+
+<img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
+
 # Penggunaan
 
 BASE Url:
