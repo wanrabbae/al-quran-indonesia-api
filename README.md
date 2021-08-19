@@ -6,6 +6,9 @@ API ini dibuat menggunakan: <br>
 
 <img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 
+### Apa yg baru ?
+- Search surah berdasarkan nama surah
+
 # Penggunaan
 
 BASE Url:
@@ -68,6 +71,41 @@ Contoh Response:
   nomor: "2",
   tr: "al<u>h</u>amdu lill<u>aa</u>hi rabbi <strong>a</strong>l'<u>aa</u>lamiin<strong>a</strong>"
   }
+]
+```
+## - Search surah berdasarkan nama surah
+```bash
+https://api-alquranid.herokuapp.com/surah/search/namasurah
+```
+Note: nama surah berupa string
+
+Contoh Response:
+```bash
+[
+  {
+    arti: "Hidangan",
+    asma: "المائدة",
+    audio: "http://ia802609.us.archive.org/13/items/quraninindonesia/005AlMaaidah.mp3",
+    ayat: 120,
+    keterangan: "Surat Al Maa'idah terdiri dari 120 ayat; termasuk golongan surat Madaniyyah. Sekalipun ada ayatnya yang turun di Mekah, namun ayat ini diturunkan sesudah Nabi Muhammad s.a.w. hijrah ke Medinah, yaitu di waktu haji wadaa'. Surat ini dinamakan <i>Al Maa'idah</i> (hidangan) karena memuat kisah pengikut-pengikut setia Nabi Isa a.s. meminta kepada Nabi Isa a.s. agar Allah menurunkan untuk mereka Al Maa'idah (hidangan makanan) dari langit (ayat 112). Dan dinamakan <i>Al Uqud</i> (perjanjian), karena kata itu terdapat pada ayat pertama surat ini, dimana Allah menyuruh agar hamba-hamba-Nya memenuhi janji prasetia terhadap Allah dan perjanjian-perjanjian yang mereka buat sesamanya. Dinamakan juga <i>Al Munqidz</i> (yang menyelamatkan), karena akhir surat ini mengandung kisah tentang Nabi Isa a.s. penyelamat pengikut-pengikut setianya dari azab Allah.",
+    nama: "Al Maidah",
+    nomor: "5",
+    rukuk: "16",
+    type: "madinah",
+    urut: "112"
+  },
+  {
+    arti: "Orang-Orang yang Beriman",
+    asma: "المؤمنون",
+    audio: "http://ia802609.us.archive.org/13/items/quraninindonesia/023AlMuminuun.mp3",
+    ayat: 118,
+    keterangan: "Surat Al Mu'minuun terdiri atas 118 ayat, termasuk golongan surat-surat Makkiyyah. Dinamai <i>Al Mu'minuun</i>, karena permulaan ayat ini manerangkan bagaimana seharusnya sifat-sifat orang mukmin yang menyebabkan keberuntungan mereka di akhirat dan ketenteraman jiwa mereka di dunia. Demikian tingginya sifat-sifat itu, hingga ia telah menjadi akhlak bagi Nabi Muhammad s.a.w.",
+    nama: "Al Mu'minun",
+    nomor: "23",
+    rukuk: "6",
+    type: "mekah",
+    urut: "74"
+  },
 ]
 ```
 
