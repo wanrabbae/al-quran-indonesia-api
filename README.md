@@ -4,7 +4,7 @@
 
 # Peraturan dan Pedoman Kontribusi
 Dipersilahkan bila ingin melakukan open pull request atau kontribusi pada repositori ini.
-Pastikan sudah terinstall yarn pada laptop/pc kalian, karena project ini menggunakan yarn (tidak diperbolehkan menggunakan npm!)
+Pastikan sudah terinstall YARN pada laptop/pc kalian, karena project ini menggunakan YARN (tidak diperbolehkan menggunakan NPM!)
 
 API ini dibuat menggunakan: <br>
 
