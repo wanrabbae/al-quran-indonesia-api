@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-alquran-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Alwan",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-search-array": "^1.0.1"
+  }
+}
