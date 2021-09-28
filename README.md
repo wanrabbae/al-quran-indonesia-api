@@ -2,6 +2,10 @@
 ### Assalamualaikum wr.wb
 ### API gratis untuk Al-Qur'an Bahasa Indonesia yg dibuat dengan cinta dan kasih sayang. API ini GRATIS dan Halal!! Masya allah...
 
+# Peraturan dan Pedoman Kontribusi
+Dipersilahkan bila ingin melakukan open pull request atau kontribusi pada repositori ini.
+Pastikan sudah terinstall yarn pada laptop/pc kalian, karena project ini menggunakan yarn (tidak diperbolehkan menggunakan npm!)
+
 API ini dibuat menggunakan: <br>
 
 <img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
@@ -22,7 +26,7 @@ Digunakan untuk mendapatkan informasi tentang semua surah dari Al-Quran beserta 
 https://api-alquranid.herokuapp.com/surah
 ```
 Contoh Response: 
-```bash
+```json
 [
   {
   arti: "Pembukaan",
@@ -57,7 +61,7 @@ https://api-alquranid.herokuapp.com/surah/nomorsurah
 Note: nomor surah berupa number / integer
 
 Contoh Response:
-```bash
+```json
 [
   {
   ar: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
@@ -80,7 +84,7 @@ https://api-alquranid.herokuapp.com/surah/search/namasurah
 Note: nama surah berupa string
 
 Contoh Response:
-```bash
+```json
 [
   {
     arti: "Hidangan",
@@ -116,7 +120,7 @@ https://api-alquranid.herokuapp.com/surat/namasurah
 Note: nama surah berupa string
 
 Contoh Response:
-```bash
+```json
 [
   {
     arti: "Hidangan",
