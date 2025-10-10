@@ -5,7 +5,7 @@ const jsSearchArray = require('js-search-array')
 
 const app = express()
 const port = process.env.PORT || 4000
-const gopay = "08995247131"
+const gopay = "082316512192"
 
 app.use(cors())
 
